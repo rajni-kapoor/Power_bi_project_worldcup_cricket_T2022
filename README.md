@@ -2,6 +2,10 @@
 This project shows the performance of the players in different teams and the best 11 player of the tournament.
 Datasource : Webscrapping the ESPN website usign brightdata.
 Jupyter Notebook is used to convert the json files into the dataframes and then these dataframes into csv file for further data analysis.
+![image](https://user-images.githubusercontent.com/123319398/222778660-1bc5cec2-020e-4bbc-b8e0-09963ee403ed.png)
+
+![image](https://user-images.githubusercontent.com/123319398/222778774-d10dbcea-2e36-4df4-9732-807ccca804a4.png)
+
 Excel: Data cleaning of CSV files
 Power BI: Import data using CSV files, data modelling, transformations using Power Query Editor, created DAX measures, designed dashboard using bookmark, tooltip, matrix,
 scatter chart, area chart, buttons, slicers and many more features.
