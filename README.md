@@ -11,10 +11,10 @@ the json files into the dataframes and then these dataframes into csv files for 
 
 ###Data Cleaning: For the data cleaning, I used Power Query Editor. I took followed steps for data transformations
 **In dim_players**
--renaming the files
-*using first row as a header
-+splitting the name into two columns
--removing duplicate records
+- renaming the files
+* using first row as a header
++ splitting the name into two columns
+- removing duplicate records
 **In dim_match_summary**
 -adding a custom column 'stage' to categorize the game into qualifier or Super12
 *changing the datatype of stage column to text
