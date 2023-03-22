@@ -16,20 +16,20 @@ the json files into the dataframes and then these dataframes into csv files for 
 + splitting the name into two columns
 - removing duplicate records
 **In dim_match_summary**
--adding a custom column 'stage' to categorize the game into qualifier or Super12
-*changing the datatype of stage column to text
+- adding a custom column 'stage' to categorize the game into qualifier or Super12
+* changing the datatype of stage column to text
 **In fact_bowling**
--renaming column Bowling Team to team
-*creating a ball column from overs column by splitting (like 2.5 over to 2 over and 5 balls)
-+replacing null values to 0
+- renaming column Bowling Team to team
+* creating a ball column from overs column by splitting (like 2.5 over to 2 over and 5 balls)
++ replacing null values to 0
 **In batting_summary**
--renaming columns 4s to fours, 6s to sixes, and team innings to team
-*renaming column 'out/not_out to out where out=1 and not_out=0
-+changing datatype of 'balls' to whole number
--removing ( text after name from batsman_name
+- renaming columns 4s to fours, 6s to sixes, and team innings to team
+* renaming column 'out/not_out to out where out=1 and not_out=0
++ changing datatype of 'balls' to whole number
+- removing ( text after name from batsman_name
 
 
-Power BI: Import data using CSV files, data modelling, transformations using Power Query Editor, created DAX measures, designed dashboard using 
+**Power BI: Import data using CSV files, data modelling, transformations using Power Query Editor, created DAX measures, designed dashboard using 
 bookmark, tooltip, matrix,scatter chart, area chart, buttons, slicers and many more features.
 
 
