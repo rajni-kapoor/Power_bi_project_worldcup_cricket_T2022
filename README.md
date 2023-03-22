@@ -30,7 +30,7 @@ the json files into the dataframes and then these dataframes into csv files for 
 
 
 **Power BI: Import data using CSV files, data modelling, transformations using Power Query Editor, created DAX measures, designed dashboard using 
-bookmark, tooltip, matrix,scatter chart, area chart, buttons, slicers and many more features.
+bookmark, tooltip, matrix,scatter chart, area chart, buttons, slicers and many more features.**
 
 
 ![image](https://user-images.githubusercontent.com/123319398/222763389-5d931ad6-f84a-4eaf-9c4e-ed1ae2aa09b1.png)
