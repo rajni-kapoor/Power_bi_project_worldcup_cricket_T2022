@@ -10,19 +10,19 @@ the json files into the dataframes and then these dataframes into csv files for 
 ![image](https://user-images.githubusercontent.com/123319398/222778774-d10dbcea-2e36-4df4-9732-807ccca804a4.png)
 
 ###Data Cleaning: For the data cleaning, I used Power Query Editor. I took followed steps for data transformations
-**In dim_players**
+## In dim_players
 - renaming the files
 * using first row as a header
 + splitting the name into two columns
 - removing duplicate records
-**In dim_match_summary**
+## In dim_match_summary
 - adding a custom column 'stage' to categorize the game into qualifier or Super12
 * changing the datatype of stage column to text
-**In fact_bowling**
+## In fact_bowling
 - renaming column Bowling Team to team
 * creating a ball column from overs column by splitting (like 2.5 over to 2 over and 5 balls)
 + replacing null values to 0
-**In batting_summary**
+## In batting_summary**
 - renaming columns 4s to fours, 6s to sixes, and team innings to team
 * renaming column 'out/not_out to out where out=1 and not_out=0
 + changing datatype of 'balls' to whole number
